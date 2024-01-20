@@ -27,7 +27,7 @@ All you will need is `python` and `pipenv` installed.
 
 ```shell
 pipenv shell
-    bash  # if not already
+bash  # if not already
 set -o allexport && source env/monkey.env && set +o allexport
 python run.py
 ```
@@ -45,7 +45,7 @@ pipenv install --dev
 pytest .
 ```
 
-### Other
-- Code is typed, you can check it by running `mypy .` from pipenv shell (dev packages required, see running test above).
+### Notes
+- Code is typed, you can check it by running `mypy .` from pipenv shell (dev packages required, see the "running test" above).
 - Code is formatted by [Black](https://github.com/psf/black/).
 - [Isort](https://pycqa.github.io/isort/) is used for sorting imports.
