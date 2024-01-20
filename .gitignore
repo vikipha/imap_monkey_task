@@ -1,0 +1,7 @@
+.idea
+data/*
+.mypy_cache
+.pytest_cache
+env/*.env
+*.iml
+__pycache__

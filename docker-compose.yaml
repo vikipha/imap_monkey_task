@@ -1,0 +1,13 @@
+version: "3.4"
+
+services:
+  monkey:
+    build:
+      context: ./
+      dockerfile: compose/Dockerfile
+    env_file:
+      - env/monkey.env
+    command: ["python3", "run.py"]
+    working_dir: /opt/monkey
+    image: monkey_app
+    restart: on-failure
