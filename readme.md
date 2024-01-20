@@ -29,7 +29,7 @@ All you will need is `python` and `pipenv` installed.
 pipenv shell
 bash  # if not already
 set -o allexport && source env/monkey.env && set +o allexport
-python run.py
+python monkey/run.py
 ```
 
 #### Docker-compose
